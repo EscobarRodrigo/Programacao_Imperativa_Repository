@@ -42,9 +42,9 @@ console.log(salario(10000));
 
 //3.f
 function IMC(peso, altura) {
-    return peso / ((altura * altura)/100)
+    return peso / ((altura * altura)/10000)
 }
-console.log(IMC (80,170))
+console.log(IMC (102,177))
 
 // //imc
 // function IMC(x, y) {
