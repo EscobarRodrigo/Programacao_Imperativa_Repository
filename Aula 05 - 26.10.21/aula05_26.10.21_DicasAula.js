@@ -24,3 +24,11 @@ function somar(x,y){
    console.log (somar (90,15));
 
    console.log ("Esse é o resultado : "+result)
+
+
+   // Função Expressa
+
+   let adicao = function(){
+       console.log(1+1);
+   }
+   adicao ();
