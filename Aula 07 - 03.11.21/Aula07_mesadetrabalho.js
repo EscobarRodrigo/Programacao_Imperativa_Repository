@@ -33,8 +33,8 @@ let a = 3; // x
 let b = 8; // y
 console.log (!(a=="3") || (a === b) && !(b!==8) && (a<=b)); //false
 
-let str = ""
-let msg =  "haha!"
-let eBonito = "false"
+let str = ""          // string vazia = FALSE
+let msg =  "haha!"    // string com parâmetro/informação = TRUE 
+let eBonito = "false" // string com parâmetro/informação = TRUE
 
-console.log (!(str|| msg) && eBonito); //false
+console.log ( !((str|| msg) && eBonito)); //false
