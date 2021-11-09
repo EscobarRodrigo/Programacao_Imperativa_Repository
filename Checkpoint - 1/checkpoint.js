@@ -10,7 +10,7 @@
     switch (true) {
       case tempo <= 9:
         return "Tempo insuficiente";
-        
+
       case tempo >= 10 && tempo <= 19:
         return "Prato pronto, bom apetite!";
 
@@ -28,7 +28,7 @@
   }
 
 
-// MACARRÃO
+// // MACARRÃO
   function usarMicroondas(prato, tempo) {
     switch (true) {
       case tempo < 8:
@@ -43,20 +43,20 @@
       case tempo >= 24:
         return "Kabumm!";
 
-      
+
     }
     switch (prato) {
       case "macarrão":
         return (tempo);
     }
   }
-  
+
 // CARNE = 15 segundos
 function usarMicroondas(prato, tempo) {
     switch (true) {
       case tempo <= 14:
         return "Tempo insuficiente";
-        
+
       case tempo >= 15 && tempo <= 29:
         return "Prato pronto, bom apetite!";
 
@@ -66,7 +66,7 @@ function usarMicroondas(prato, tempo) {
       case tempo >= 60:
         return "Kabumm!";
 
-      
+
     }
     switch (prato) {
       case "carne":
@@ -88,7 +88,7 @@ function usarMicroondas(prato, tempo) {
 
       case tempo >= 36:
         return "Kabumm!";
-       
+
 
     }
     switch (prato) {
@@ -111,7 +111,7 @@ function usarMicroondas(prato, tempo) {
 
       case tempo >= 24:
         return "Kabumm!";
-      
+
     }
     switch (prato) {
       case "brigadeiro":
