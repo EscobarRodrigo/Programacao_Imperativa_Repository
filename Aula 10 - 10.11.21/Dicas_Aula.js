@@ -38,15 +38,15 @@ let primeiroValor = nomes.shift();
 console.log(nomes);
 console.log(primeiroValor);
 
-//ARRAY - FUNÇÕES/METÓDOS UNSHIFT>> .unshift  // INCLUI na posição 0 (zero) PRIMEIRA POSIÇÃO "valor" dentro do ARRAY
+//ARRAY - METÓDOS UNSHIFT>> .unshift  // INCLUI na posição 0 (zero) PRIMEIRA POSIÇÃO "valor" dentro do ARRAY
 nomes.unshift(ultimoValor);
 console.log(nomes);
 
-//ARRAY - FUNÇÕES/METÓDOS JOIN>> .join  // Transforma um ARRAY em STRING ou ao reverso **usando um split**
+//ARRAY - METÓDOS JOIN>> .join  // Transforma um ARRAY em STRING ou ao reverso **usando um split**
 let strNomes = nomes.join(); // por padrão separa por virgula **caso não indicado nenhum parâmetro
 console.log(strNomes);
 
-//ARRAY - FUNÇÕES/METÓDOS LASTINDEXOF >> .lastIndexOf  // Procura pelo elemento FINAL DO ARRAY
+//ARRAY - METÓDOS LASTINDEXOF >> .lastIndexOf  // Procura pelo elemento FINAL DO ARRAY
 let y = nomes.lastIndexOf("João");
 console.log(y);
 
@@ -54,7 +54,7 @@ console.log(y);
 // console.log(y);
 
 
-//ARRAY - FUNÇÕES/METÓDOS INCLUDES >> .includes  // Retorna um BOOLEANO (true / false)
+//ARRAY - METÓDOS INCLUDES >> .includes  // Retorna um BOOLEANO (true / false)
 let x = nomes.includes ("João");
 let xp = nomes.includes ("Marcelo");
 console.log (x,xp);
