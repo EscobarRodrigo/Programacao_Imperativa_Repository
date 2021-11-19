@@ -40,4 +40,4 @@ OPERADORES RELACIONAIS
 /*==============================
 LÓGICOS
 ===============================*/
-//Permitem combinar valores booleanos e seu resultado ao mesmo tempo, também é um booleano
+//Permitem combinar valores booleanos e seu resultado ao mesmo tempo, também é um booleano.

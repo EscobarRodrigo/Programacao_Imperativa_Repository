@@ -46,18 +46,25 @@ function IMC(peso, altura) {
 }
 console.log(IMC (102,177))
 
-// //imc
-// function IMC(x, y) {
-//     return x/((y/100)*(y/100))
-// }
-// console.log(IMC(80, 170))
 
 //EXTRA
 // Crie uma função que receba uma string em minúsculas, converta-a em maiúsculas e as retorne. Investigue o que o método de .toUpperCase() faz.
 
+function convertUP (parametro) {
+    return "rodrigo escobar" .toUpperCase()
+
+}
+console.log (convertUP("parametro"));
 
 
 // Crie uma função que receba um parâmetro e retorne o tipo de dado deste parâmetro. Dica: Isso te ajudará a entender o que o operador typeof faz.
+
+
+function retornaType (rodrigo) {
+    return typeof 1
+}
+console.log (typeof{});
+
 
 
 
