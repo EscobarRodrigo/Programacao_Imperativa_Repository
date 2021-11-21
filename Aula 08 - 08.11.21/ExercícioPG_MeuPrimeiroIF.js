@@ -1,10 +1,9 @@
 // Exercício: “Meu primeiro if”
 
 
- let status = "Quase dormindo";
- let status = "Acordado";
+ let status1 = "Quase dormindo";
 
- if (status == "Quase dormindo"){
+ if (status1 == "Acordado"){
      console.log("O valor é true - verdadeiro")
  }
 
@@ -15,13 +14,10 @@
 //Exercício “Igualdade, if e else”
 
 let linguaguem = "javascript";
-// let linguaguem = "front-end";
 
-
-if (linguaguem == "javascript"){
+if (linguaguem == "front-end"){ // como inclui front-end, automaticamente cai em "ELSE"
     console.log("Estou aprendendo")
 }
-
 else {
     console.log("Aprenderei mais tarde");
 }

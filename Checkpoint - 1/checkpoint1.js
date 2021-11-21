@@ -105,11 +105,11 @@ usarMicroondas(4, 12);
 
 console.log ("")
 console.log ("BRIGADEIRO")
-usarMicroondas(5, 24);
-usarMicroondas(5, 36);
-usarMicroondas(5, 11);
-usarMicroondas(5, 12);
+usarMicroondas(5, 10);
+usarMicroondas(5, 20);
+usarMicroondas(5, 25);
+usarMicroondas(5, 7);
 
 console.log ("")
-console.log ("Prato Inexistente")
+// console.log ("Prato Inexistente")
 usarMicroondas(6);
