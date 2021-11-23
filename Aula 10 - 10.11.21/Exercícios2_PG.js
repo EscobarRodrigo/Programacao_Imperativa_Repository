@@ -20,9 +20,11 @@ console.log(filmes[2][0])
 //Motivo: [0] = posição DENTRO do ARRAY que estou buscando //
 
 
-// function imprimirInverso
+let arrayOriginal = "one, two, three";
+arrayOriginal.reverse();
 
-// let arrayOriginal = "[one, two, three]";
-// arrayOriginal.reverse();
+function imprimirInverso (arrayOriginal) {
+    console.log(arrayOriginal);
 
-// console.log(arrayOriginal)
+}
+
