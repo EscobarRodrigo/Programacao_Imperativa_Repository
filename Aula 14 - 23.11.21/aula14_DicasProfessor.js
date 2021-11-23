@@ -1,15 +1,15 @@
-let series = ["Toy","Spiderman"];
+"REQUIRE >> Realizando a requisição das informaçãos do arquivo aula14.modulos.js"
 
-module.exports = series; //Para exportar//
+// require() // para abrir/importar
 
-require() // para abrir/importar
+// "Módulos Criados" indicando o caminho da pasta
+// let series = require (./series/index)
 
-"Módulos Criados" (indicando o caminho da pasta)
-let series = require (./series/index)
+// "Como requerer um modulo?"
+// let modulo = require ('nomeDoModulo');
 
-"Como requerer um modulo?"
-let modulo = require ('nomeDoModulo');
+// "---------------------------------------------------------------------"
 
-"---------------------------------------------------------------------"
-
-
+const carros = require ('./aula14.modulos');
+console.log(carros); "Printando a função (para confirmar que ela está funcionando"
+console.log(carros()); "Executando a função"
