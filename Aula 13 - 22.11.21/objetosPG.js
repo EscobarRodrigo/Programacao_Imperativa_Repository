@@ -3,7 +3,7 @@
 
 //ESTRUTURA: let pais = {};
 // O que estiver dentro das {}, se chama propriedade
-// não deve ser atribuido através/com o simbolode de "igual =" // usar dois pontos :
+// não deve ser atribuido através/com o simbolo de "igual =" // usar dois pontos :
 
 let pais = {
     nome: "Brasil",
