@@ -53,7 +53,7 @@ let lista = [conta1,conta2,conta3,conta4,conta5,conta6,conta7,conta8,conta9,cont
 let banco = {
     cliente: lista,
     consultarCliente: function(nome){
-         for (let i = 0; i < lista.length; i++) {
+         for (let i = 0 /*posição*/; i < lista.length; i++) {
                 if(nome == lista[i].titular){
                     console.log(lista[i])
              }
@@ -72,12 +72,12 @@ let banco = {
     },
 }
 
-console.log();
- banco.consultarCliente("Jobi Mawtus");
+// console.log();
+//  banco.consultarCliente("Jobi Mawtus");
 
-console.log();
- banco.deposito("Jobi Mawtus",4)
-console.log();
+// console.log();
+//  banco.deposito("Jobi Mawtus",4)
+// console.log();
 
 
 module.exports = banco;

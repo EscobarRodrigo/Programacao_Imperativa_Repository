@@ -4,7 +4,7 @@ let contaBasica = {
     saldo: 225.00,
     titular: "Joel Vasconcelos"
 }
-
+console.log (contaBasica);
 
 "Função Construtora"
 function ContaUsuario (numero, tipo, saldo, titular) {
