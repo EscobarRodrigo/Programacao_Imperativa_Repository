@@ -1,3 +1,5 @@
+"Objeto"
+
 let contaBasica = {
     numero: 105060,
     tipoDeConta:"Conta Corrente",
