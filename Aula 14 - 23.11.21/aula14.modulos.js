@@ -4,7 +4,7 @@
 
 // module.exports = arrayCarro;
 
-"Objeto"
+// "Objeto"
 // let arrayCarro = {
 
 //     modelo: "k",

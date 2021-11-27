@@ -1,9 +1,4 @@
-function conta (){
-    
-    return [
-
-
-
+let clientes = [
     {
             "numero": "5486273622",
             "tipo": "Conta Corrente",
@@ -65,6 +60,5 @@ function conta (){
             "titular": "Bendite Huggett"
         }
     ]
-}
 
-module.exports = conta;
+    module.exports = clientes;
