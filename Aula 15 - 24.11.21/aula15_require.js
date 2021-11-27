@@ -14,7 +14,7 @@ function NovaConta (numero, tipo, saldo, titular) {
 for (let i = 0; i < Dadosclientes.length; i++) {
   listaUsuarios.push(new NovaConta(Dadosclientes[i].numero, Dadosclientes[i].tipo, Dadosclientes[i].saldo, Dadosclientes[i].titular));
 }
-console.log (listaUsuarios); "Confirmando que os dados foram incluidos dentro da nova variável + Arrays"
+// console.log (listaUsuarios); "Confirmando que os dados foram incluidos dentro da nova variável + Arrays"
 
 let banco = {
   clientes: listaUsuarios,
@@ -27,5 +27,6 @@ let banco = {
   }
 }
 
-// console.log (banco.consultarCliente('Bendite Huggett'));
+console.log ("Confirmando Titular:")
+console.log (banco.consultarCliente('Bendite Huggett'));
 
