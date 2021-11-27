@@ -3,6 +3,7 @@
 let Dadosclientes = require("./modulo2");
 let listaUsuarios = [];
 
+
 function NovaConta (numero, tipo, saldo, titular) {
   this.numero = numero,
   this.tipo = tipo,
@@ -13,7 +14,7 @@ function NovaConta (numero, tipo, saldo, titular) {
 for (let i = 0; i < Dadosclientes.length; i++) {
   listaUsuarios.push(new NovaConta(Dadosclientes[i].numero, Dadosclientes[i].tipo, Dadosclientes[i].saldo, Dadosclientes[i].titular));
 }
-// console.log (listaUsuarios);
+console.log (listaUsuarios); "Confirmando que os dados foram incluidos dentro da nova variável + Arrays"
 
 let banco = {
   clientes: listaUsuarios,
@@ -26,5 +27,5 @@ let banco = {
   }
 }
 
-console.log (banco.consultarCliente('Bendite Huggett'));
+// console.log (banco.consultarCliente('Bendite Huggett'));
 
