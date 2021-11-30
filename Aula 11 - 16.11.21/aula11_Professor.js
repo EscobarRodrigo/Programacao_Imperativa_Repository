@@ -21,17 +21,17 @@
 //     contador++;
 // }while (contador <= 5);
 
-// for(let contador = 1; contador <=5; contador++){
-//     console.log(contador," - Olá mundo ");
-// }
+for(let contador = 1; contador <=5; contador++){
+    console.log(contador," - Olá mundo ");
+}
 
-// for (let i = 1; i <=10; i++) {//loop que pecorre do 1 até o 10 
-//     //verificar se é impar 
-//     // console.log(i%2)
-//     if(i%2 != 0){// se o numero divido por 2 o resto for != 0, quer dizer que ele é impar 
-//         console.log("numero ímpar == ",i);
-//     }
-// }
+for (let i = 1; i <=10; i++) {//loop que pecorre do 1 até o 10 
+    //verificar se é impar 
+    // console.log(i%2)
+    if(i%2 != 0){// se o numero divido por 2 o resto for != 0, quer dizer que ele é impar 
+        console.log("numero ímpar == ",i);
+    }
+}
 let listaFilmes2 = ["filme1", "filme1", "filme1"];
 
 let listaFilmes1 = ["filme1", "filme1", "filme1", "filme1", "novo filme"];
