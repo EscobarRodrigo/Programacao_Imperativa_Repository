@@ -5,7 +5,7 @@
 // Tem-se um conjunto de dados contendo a altura e o sexo (M ou F) de 15 pessoas. Faça um programa que calcule e escreva:
 
 let pessoas = require('./aula19_mesa_dados');
-// console.log(pessoas);
+console.log(pessoas);
 
 
 // a maior e a menor altura do grupo;
@@ -16,7 +16,7 @@ function MaioreMenorAltura(array){
     console.log('A pessoa com menor altura é : ' + pessoas[0].nome + ' com ' + pessoas[0].altura + 'm.');
 }
 
-// MaioreMenorAltura(pessoas);
+MaioreMenorAltura(pessoas);
 
 // a média de altura das mulheres;
 
@@ -36,5 +36,5 @@ function NumeroHomens(array) {
     return 'A quantidade de homens é: ' + homem.length;
 }
 
-// console.log(NumeroHomens(pessoas));
+console.log(NumeroHomens(pessoas));
 
