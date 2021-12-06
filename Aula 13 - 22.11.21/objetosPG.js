@@ -66,4 +66,7 @@ console.log(carro); "Console.log padrão"
 console.log(new Carro("Renault","Clio")); "Console NEW > criando o Objeto * Função Construtora"
 
 
+let array = {
+    valor: "Brasil"
 
+}
